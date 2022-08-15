@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()
+{
+	int x;
+    int y;
+    float m;
+    float n;
+    scanf("%d %d",&x,&y);
+    scanf("%f %f",&m,&n);
+    int si;
+    int di;
+    float sf;
+    float df;
+    si=x+y;
+    di=x-y;
+    sf=m+n;
+    df=m-n;
+    printf("%d %d" , si, di);
+    printf("\n%.1f %.1f", sf,df);
+    
+    return 0;
+}
