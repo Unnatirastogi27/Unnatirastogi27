@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main() {
+    char lang[5][20]={
+        "clang",
+        "java",
+        "java script",
+        "python",
+        "react"
+    };
+    printf("%c\n",lang[0][0]);
+    printf("%c\n",lang);
+    printf("%s\n",lang);
+    printf("%s\n",lang[0]);
+    printf("%s\n",lang[4]);
+    printf("%c\n",lang[1][4]);
+    printf("%c\n",lang[1][20]);
+    printf("%c\n",lang[4][21]);
+    printf("%c\n",*(*(lang+1)+21));
+    printf("%c\n",lang[1]);
+    printf("%c\n",*(lang+1));
+    return 0;
+}
