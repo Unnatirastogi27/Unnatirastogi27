@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+    int n,grade , a,x;
+    scanf(" %d ",&n);
+    for(a=0;a<n;a++)
+    {
+        scanf("%d",&grade);
+        x = (grade+4)/5;
+        x*=5;
+        if(x>=40 && x-grade<3)
+            grade=x;
+        printf("%d\n",grade);
+        
+    }
+    return 0;
+}
